@@ -3,5 +3,6 @@
 # Return the value str type.
 def main(a):
     return a
-x=type(str())
-print(x(main(0)))
+x=str(main(2.4))
+print(x)
+print(type(x))
