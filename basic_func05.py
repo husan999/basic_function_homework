@@ -3,5 +3,6 @@
 # Return the value float type.
 def main(a):
     return a
-x=type(float())
-print(x(main(4)))
+x=float(main(4))
+print(x)
+print(type(x))
