@@ -3,5 +3,6 @@
 # Return the value integer type.
 def main(a):
     return a
-x=type(int())
-print(x(main(2.5)))
+x=int(main(3))
+print(x)
+print(type(x))
