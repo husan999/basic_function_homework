@@ -4,4 +4,4 @@
 def main(a):
     return a
 x=type(str())
-print(x(main('good')))
+print(x(main(0)))
