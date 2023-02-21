@@ -3,5 +3,4 @@
 # Return the value str type.
 def main():
     return "jahon"
-
 print(main())
